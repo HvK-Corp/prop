@@ -341,3 +341,20 @@ body {
     transform: translateX(100%);
   }
 }
+
+@media screen and (max-width: 800px) {
+  .proposal-image {
+    top: 880px;
+    left: 470px;
+    width: 100px;
+    height: 100px;
+}
+  .proposal-note {
+    top: auto;
+    left: auto;
+    font-size: small;
+}
+  .message-container p {
+    font-size: medium;
+}
+}
