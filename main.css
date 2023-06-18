@@ -9,7 +9,7 @@ body {
   background-color: lavender;
   background-image: url(bg.png);
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
 }
 
@@ -185,7 +185,7 @@ body {
   overflow: hidden;
   background-image: url(bg.png);
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
 }
 
@@ -344,14 +344,15 @@ body {
 
 @media screen and (max-width: 800px) {
   .proposal-image {
-    top: 880px;
-    left: 470px;
+    top: 1000px;
+    left: auto;
     width: 100px;
     height: 100px;
 }
   .proposal-note {
     top: auto;
     left: auto;
+    font-family: Brush Script MT;
     font-size: small;
 }
   .message-container p {
