@@ -344,7 +344,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .proposal-image {
-    top: 600px;
+    top: 500px;
     left: auto;
     width: 100px;
     height: 100px;
