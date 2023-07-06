@@ -193,7 +193,26 @@ function createLoveContainer() {
   loveContent.id = 'love-content';
 
   const loveMessage = document.createElement('p');
-  loveMessage.textContent = `Can you believe it??? <br> We have completed a whole year together! <br> I never thought I would be so lucky to find a girl like you. 😊 <br> Since you came into my life, you have never left, even after knowing about my anger issues and past. <br> Instead, you happily helped me get over everything and become better every day. <br> My soul is so connected to you; it is hard to even imagine how things in my life would be without you. <br> I have a large amount of love, care, and trust in you which my words and actions might not be able to express. <br> But honestly, I truly mean it every time I say 'I Love You 💘'. <br> We have had many fights with each other in just a year and may have more in the days to come. <br> There might also be times when we will be extremely angry and upset with each other. <br> But I promise always to make you feel loved and happy whenever you may need. <br> I will always stand alongside you and support/help you. <br> There might also be times when we might get bored; it is okay and natural. <br> But I know, as you promised, that you'll never forget me 🙂 and nor will I. <br> I'll always keep in touch with you no matter what. <br> You're someone I never wanna lose.  <br> Congratulations on completing this lovable journey of a year with me, and I hope we continue with a lot of fun and laughter ahead too, my dear Anveshika! 💖🌟<br> Thank you for being my comfy lil home 🏡<br>  P.S. Always remember to share any problem with me, I might not always be able to help but, I'll sure make you feel better 🤗. <br> I know that our this one year has lot of tears along with the smiles, so can we just restart it all and this time properly making true promises, which we'll never break? Can we live with each other in a more better and loving way? If yes then click the button below, but don't take it in the wrong way! I'm not looking forward to freaking you out!!!. It is just a virtual symbol of our bond, love, care, and promises.`;
+  loveMessage.textContent = `Can you believe it???
+  We have completed a whole year together!
+  I never thought I would be so lucky to find a girl like you. 😊
+  Since you came into my life, you have never left, even after knowing about my anger issues and past.
+  Instead, you happily helped me get over everything and become better every day.
+  My soul is so connected to you; it is hard to even imagine how things in my life would be without you.
+  I have a large amount of love, care, and trust in you which my words and actions might not be able to express.
+  But honestly, I truly mean it every time I say 'I Love You 💘'.
+  We have had many fights with each other in just a year and may have more in the days to come.
+  There might also be times when we will be extremely angry and upset with each other.
+  But I promise always to make you feel loved and happy whenever you may need.
+  I will always stand alongside you and support/help you.
+  There might also be times when we might get bored; it is okay and natural.
+  But I know, as you promised, that you'll never forget me 🙂 and nor will I.
+  I'll always keep in touch with you no matter what.
+  You're someone I never wanna lose.
+  Congratulations on completing this lovable journey of a year with me, and I hope we continue with a lot of fun and laughter ahead too, my dear Anveshika! 💖🌟
+  Thank you for being my comfy lil home 🏡
+  P.S. Always remember to share any problem with me, I might not always be able to help but, I'll sure make you feel better 🤗.
+  click the button below but don't take it in the wrong way! I'm not looking forward to freaking you out!!!. It is just a virtual symbol of our bond, love, care, and promises.`;
 
   const proposalButton = document.createElement('button');
   proposalButton.textContent = 'Click to get proposed again 😙';
@@ -220,7 +239,7 @@ function handleProposalButtonClick() {
   const note = document.createElement('div');
   note.className = 'proposal-note';
   note.innerHTML =
-    'This is just an image of a ring, so this is not a real engagement 😅 (F.Y.I) <br> But still as a little game 😁: <br> - Do You accept me as a boy you will forever love (along Jung Kook)? <br> - Do You Accept me with all my flaws & make a promise to make me a better person? <br> - Do You Take the responsibility to take care of me? <br> - Will you always remain the same girl as you are now, with me forever? <br> - Will you always share all of your problems with me & take appropriate care of yourself too? <br> - And some more I will tell you in our DM (they are not something bad it is just that I modified this whole thing last week after our fight) <br>From my side I will also keep these promises! <br> If You accept all of the conditions, then you may click the ring and proceed further.';
+    'This is just an image of a ring, so this is not a real engagement 😅 (F.Y.I) <br> But still as a little game 😁: <br> - Do You accept me as a boy you will forever love (along Jung Kook)? <br> - Do You Accept me with all my flaws & make a promise to make me a better person? <br> - Do You Take the responsibility to take care of me? <br> - Will you always remain the same girl as you are now, with me forever? <br> - Will you always share all of your problems with me & take appropriate care of yourself too? <br>From my side I will also keep these promises! <br> If You accept all of the conditions, then you may click the ring and proceed further.';
   document.body.appendChild(note);
 
   setTimeout(() => {
@@ -245,6 +264,7 @@ function handleProposalButtonClick() {
       const messageText = document.createElement('p');
       messageText.innerHTML = `I'm very happy to complete a whole year & that you accepted me however I am, but I don't know this yet 😅.<br>
     So Head Over to our <a href="https://www.instagram.com/direct/t/17844315449757721/">Instagram chat</a> and say this - Happy 1 year with me, Dumbo!<br>
+    <br>
     To make me know that I have to be happier<br>
     And I Love You a lot and Thank You for all that you've given me since your arrival in my life! <br>
     and here is your ring, my life: <br>
