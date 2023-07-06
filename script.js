@@ -1,4 +1,4 @@
-rconst text = "Hello Anveshika!";
+const text = "Hello Anveshika!";
 const introElement = document.querySelector('.intro');
 let index = 0;
 
